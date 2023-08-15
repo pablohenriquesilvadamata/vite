@@ -1,4 +1,5 @@
-#lista-servicos {
+/* MAIN */
+main {
     background-image:
         linear-gradient(180deg, #060821 0%, #06082120 25%, #0608218f 80%, #060821 100%),
         url("../../assets/img/background_login.png");
@@ -8,7 +9,7 @@
     background-position: center;
 }
 
-#lista-servicos .container_lista_servicos {
+.container_lista_devs {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,17 +17,17 @@
     padding: 50px 0;
 }
 
-#lista-servicos .lista_servicos_conteudo {
+.lista_devs_conteudo {
     width: 100%;
     max-width: 900px;
-    
+
     padding: 50px 0;
     margin-top: 6vh;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     background: linear-gradient(114.61deg, #ffffff0d 1.08%, #ffffff1e 99.26%);
     box-shadow: 30px 30px 60px #00000080;
     border: 1px solid #ffffffcc;
@@ -35,13 +36,13 @@
     color: var(--branco);
 }
 
-#lista-servicos h1 {
+h1 {
     font-family: var(--font1);
     font-size: 50px;
     text-align: center;
 }
 
-#lista-servicos hr {
+hr {
     margin: 20px auto;
     width: 80%;
     height: 4px;
@@ -50,16 +51,16 @@
     border-radius: 50%;
 }
 
-#lista-servicos .lista_servicos_conteudo form {
+.lista_devs_conteudo form {
     width: 85%;
     padding: 20px 0;
 }
 
-#lista-servicos .wrapper_lista {
+.wrapper_lista {
     width: 85%;
 }
 
-#lista-servicos .wrapper_form {
+.wrapper_form {
     height: 95px;
     width: 85%;
     margin: 0 auto;
@@ -70,13 +71,13 @@
 
 }
 
-#lista-servicos .wrapper_form label {
+.wrapper_form label {
     font-family: var(--font2);
     text-transform: capitalize;
     font-size: 28px;
 }
 
-#lista-servicos .campo-label input {
+.campo-label input {
     height: 37px;
     width: 75%;
 
@@ -86,7 +87,7 @@
     border-radius: 20px;
 
     background: linear-gradient(136deg, #ffffff1a 0%, #ffffff0b 100%);
-    backdrop-filter: blur(15px);    
+    backdrop-filter: blur(15px);
     box-shadow: 30px 30px 60px 0px #00000080;
 
     font-size: 16px;
@@ -94,11 +95,11 @@
     caret-color: white;
 }
 
-#lista-servicos .campo-label input:focus-visible {
+.campo-label input:focus-visible {
     outline: 2px solid var(--branco);
 }
 
-#lista-servicos .campo-label button {
+.campo-label button {
     width: 20%;
 
     border: 4px solid var(--rosa);
@@ -110,74 +111,23 @@
     text-transform: uppercase;
 }
 
-#lista-servicos .campo-label button:hover {
+.campo-label button:hover {
     background-color: #8a214f;
     cursor: pointer;
 }
 
-#lista-servicos .campo-label {
+.campo-label {
     display: flex;
     justify-content: space-between;
 }
 
-#lista-servicos .lista_servicos_conteudo ul {
+.lista_devs_conteudo ul {
     list-style: none;
     padding: 50px 0;
 }
 
-#lista-servicos .lista_servicos_conteudo li {
+.lista_devs_conteudo li {
     margin-bottom: 20px;
     padding-bottom: 20px;
-}
-
-#lista-servicos .servico {
-    width: 85%;
-    margin: 0 auto;
-    padding: 15px;
-
-    border: solid 1px #909090;
-    border-radius: 16px;
-    background: linear-gradient(136deg, #ffffff1a 0%, #ffffff0b 100%);
-    backdrop-filter: blur(15px);
-
-    font-family: var(--font2);
-}
-
-#lista-servicos .topo_servico {
-    width: 100%;
-
-    margin-bottom: 30px;
-
-    display: flex;
-    justify-content: space-between;
-
-    font-size: 20px;
-}
-
-#lista-servicos .topo_servico h3 {
-    width: 65%;
-}
-
-#lista-servicos .servico p {
-    margin-bottom: 30px;
-}
-
-#lista-servicos .techs {
-    max-width: 70%;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-#lista-servicos .techs span {
-    font-size: 14px;
-    padding: 2px 10px;
-
-    margin-right: 20px;
-    margin-bottom: 15px;
-
-    border-radius: 20px;
-    background-color: var(--rosa);
-    color: white;
-    font-weight: 600;
+    border-bottom: solid 1px #ffffff34;
 }
