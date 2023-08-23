@@ -65,8 +65,6 @@ function CadastroUsuario() {
             console.log(error)
         })
 
-        api.post()
-
     }
 
     //Funçao para colocar mascara no input de CEP
